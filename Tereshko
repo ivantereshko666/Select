@@ -1,0 +1,32 @@
+ТЕРЕШКО ІВАН
+
+
+1) SELECT manufacturers_phone FROM manufacturers WHERE manufacturers_name = 'MAN SE' ;
+
+
+2) SELECT prise FROM ticket WHERE prise = 5600;
+
+
+3) SELECT passengers_gender  FROM passengers WHERE passengers_gender = 'ж';
+
+
+4) SELECT capacity FROM bus ORDER BY capacity ASC;
+
+5) SELECT carriers_id FROM carriers WHERE carriers_adress = 'Новознесенська, 2'
+
+6) SELECT * FROM passengers WHERE passengers_last_name LIKE '%оло%' ;
+
+7) SELECT * FROM passengers WHERE passengers_last_name LIKE '%вич%' ;
+
+8) SELECT MAX(prise) FROM ticket;
+
+9) SELECT MIN(prise) FROM ticket;
+
+10) SELECT * FROM passengers WHERE passengers_birth BETWEEN '1999-05-09' AND '2001-02-19';
+
+11) SELECT * FROM drivers WHERE drivers_id = 3;
+ 
+12) SELECT city_id, city_name AS name FROM city;
+
+
+
